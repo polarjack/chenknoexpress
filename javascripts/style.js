@@ -1,8 +1,7 @@
-$(document).ready(function() {
+$(function() {
     var canvas = $(".navclick");
     // var b = false;
     canvas.click(function () {
-
       if(document.getElementById("intro").style.left=="300px") {
         $(".navlist").hide();
         document.getElementById("intro").style.left="0";
